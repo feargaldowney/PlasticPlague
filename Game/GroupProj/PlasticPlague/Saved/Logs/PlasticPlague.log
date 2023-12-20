@@ -5884,3 +5884,769 @@ BUILD FAILED
 [2023.12.20-16.42.40:934][676]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 2.47 sec)
 [2023.12.20-16.42.40:936][676]AssetCheck: New page: Asset Save: EndMap
 [2023.12.20-16.42.40:936][676]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/EndMap.EndMap
+[2023.12.20-16.48.50:470][852]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Maps/Assets/Character_Blueprint/Healthbar_HUD.Healthbar_HUD
+[2023.12.20-16.48.50:514][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-16.48.50:514][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-16.48.50:532][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-16.48.50:532][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-16.48.50:616][852]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.12.20-16.48.52:304][852]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.12.20-16.48.52:319][852]LogSlate: Took 0.013249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.20-17.05.56:179][332]Cmd: EDIT COPY
+[2023.12.20-17.05.56:430][347]Cmd: EDIT PASTE
+[2023.12.20-17.06.03:010][727]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-17.06.03:019][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.20-17.06.03:019][727]PIE: New page: PIE session: EndMap (20 Dec 2023, 17:06:03)
+[2023.12.20-17.06.03:019][727]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-17.06.03:026][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005491s)
+[2023.12.20-17.06.03:026][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.005539s)
+[2023.12.20-17.06.03:094][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.20-17.06.03:097][727]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-17.06.03:097][727]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-17.06.03:097][727]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-17.06.03:098][727]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2023.12.20-17.06.03:098][727]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2023.12.20-17.06.03:098][727]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-17.06.03:098][727]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-17.06.03:098][727]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-17.06.03:098][727]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-17.06.03:098][727]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-17.06.03:098][727]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-17.06.03:098][727]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-17.06.03:098][727]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-17.06.03:099][727]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-17.06.03:099][727]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-17.06.03:099][727]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-17.06.03:102][727]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-17.06.03:140][727]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-17.06.03:140][727]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-17.06.03:140][727]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-17.06.03:140][727]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-17.06.03:142][727]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2023.12.20-17.06.03:142][727]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2023.12.20-17.06.03:144][727]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2023.12.20-17.06.03:144][727]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2023.12.20-17.06.03:144][727]LogInit: FAudioDevice initialized with ID 64.
+[2023.12.20-17.06.03:144][727]LogAudio: Display: Audio Device (ID: 64) registered with world 'EndMap'.
+[2023.12.20-17.06.03:144][727]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2023.12.20-17.06.03:148][727]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-17.06.03:151][727]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-17.06.03
+[2023.12.20-17.06.03:151][727]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-17.06.03:151][727]LogWorld: Bringing up level for play took: 0.003084
+[2023.12.20-17.06.03:154][727]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2023.12.20-17.06.03:158][727]PIE: Server logged in
+[2023.12.20-17.06.03:158][727]PIE: Play in editor total start time 0.141 seconds.
+[2023.12.20-17.06.03:160][727]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-17.07.04:373][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-17.07.04:373][396]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-17.07.04:373][396]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-17.07.04:375][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-17.07.04:379][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-17.07.04:385][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-17.07.04:406][396]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.20-17.07.04:406][396]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2023.12.20-17.07.04:406][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2023.12.20-17.07.04:408][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2023.12.20-17.07.04:414][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-17.07.04:420][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.12.20-17.07.04:715][397]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2023.12.20-17.07.06:248][466]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-17.07.06:261][466]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-17.07.31:673][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.12.20-17.07.31:688][954]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/EndMap_Auto2
+[2023.12.20-17.07.31:688][954]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/EndMap_Auto2DE91AD294912470E5623A6AA73C8DE9E.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/EndMap_Auto2.umap'
+[2023.12.20-17.07.31:689][954]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/EndMap_Auto2.umap is in the /Temp path, will not scan.
+[2023.12.20-17.07.31:690][954]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EndMap' took 0.037
+[2023.12.20-17.07.31:690][954]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2023.12.20-17.14.57:889][397]LogDerivedDataCache: C:/Users/muham/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.054 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 481 files in 874 folders with total size 3 MiB.
+[2023.12.20-17.19.11:717][ 43]LogEditorViewport: Clicking Background
+[2023.12.20-17.24.33:780][253]LogAutomationController: Ignoring very large delta of 3.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.20-17.25.32:835][101]LogInterchangeEngine: [Pending] Importing
+[2023.12.20-17.25.32:852][101]LogInterchangeEngine: Display: Interchange start importing source [D:/Downloads/HeathBar/HealthEmpty/HealthEmpty.png]
+[2023.12.20-17.25.32:876][101]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.20-17.25.32:876][101]LogInterchangeEngine: Display: Interchange start importing source [D:/Downloads/HeathBar/HealthEmpty/HealthFull.png]
+[2023.12.20-17.25.32:877][101]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.20-17.25.32:877][101]LogInterchangeEngine: Display: Interchange start importing source [D:/Downloads/HeathBar/HealthEmpty/HealthBarImage.png]
+[2023.12.20-17.25.33:129][102]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.20-17.25.33:224][103]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2023.12.20-17.25.33:224][103]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2023.12.20-17.25.33:226][103]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2023.12.20-17.25.34:133][103]LogTexture: Display: Building textures: /Game/Maps/Assets/Character_Blueprint/HealthBarImage.HealthBarImage (BGRA8, 15x13 x1x1x1) (Required Memory Estimate: 0.068203 MB), EncodeSpeed: Fast
+[2023.12.20-17.25.34:451][103]LogTexture: Display: Building textures: /Game/Maps/Assets/Character_Blueprint/HealthFull.HealthFull (BGRA8, 45x13 x1x1x1) (Required Memory Estimate: 0.079609 MB), EncodeSpeed: Fast
+[2023.12.20-17.25.34:452][103]LogTexture: Display: Building textures: /Game/Maps/Assets/Character_Blueprint/HealthEmpty.HealthEmpty (BGRA8, 45x13 x1x1x1) (Required Memory Estimate: 0.079609 MB), EncodeSpeed: Fast
+[2023.12.20-17.25.34:519][103]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.20-17.25.34:519][103]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.12.20-17.25.35:287][103]LogInterchangeEngine: [Success] Import Done
+[2023.12.20-17.25.35:525][103]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 5/4 Textures; frames since last flush: 180474
+[2023.12.20-17.25.35:525][103]LogSlate: Warning: Setting the threshold to trigger a flush to 5 non-atlased textures as there is a lot of font data being cached.
+[2023.12.20-17.25.35:567][104]LogAutomationController: Ignoring very large delta of 2.39 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.20-17.25.35:592][104]LogInterchangeEngine: [Success] Import Done
+[2023.12.20-17.25.44:934][290]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2023.12.20-17.26.27:552][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-17.26.28:066][834]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/HealthBarImage
+[2023.12.20-17.26.28:066][834]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/HealthBarImageF846879E49EC0EB25B20FFA6A921D3F2.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/HealthBarImage.uasset'
+[2023.12.20-17.26.28:088][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 535 ms (total: 3.01 sec)
+[2023.12.20-17.26.28:091][834]AssetCheck: New page: Asset Save: HealthBarImage
+[2023.12.20-17.26.28:091][834]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Maps/Assets/Character_Blueprint/HealthBarImage.HealthBarImage
+[2023.12.20-17.26.29:011][875]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2023.12.20-17.26.39:916][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-17.26.39:976][511]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/HealthFull
+[2023.12.20-17.26.39:976][511]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/HealthFull36350C3C469C535629B656B265E4CE5A.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/HealthFull.uasset'
+[2023.12.20-17.26.39:992][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 3.08 sec)
+[2023.12.20-17.26.39:993][511]AssetCheck: New page: Asset Save: HealthFull
+[2023.12.20-17.26.39:993][511]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Maps/Assets/Character_Blueprint/HealthFull.HealthFull
+[2023.12.20-17.26.40:814][559]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2023.12.20-17.28.00:025][265]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2023.12.20-17.28.00:029][265]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EndMap' took 0.341
+[2023.12.20-17.28.00:030][265]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Maps/Assets/Character_Blueprint/Healthbar_HUD] ([2] browsable assets)...
+[2023.12.20-17.28.00:035][265]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Maps/Assets/Character_Blueprint/Healthbar_HUD.Healthbar_HUD]
+[2023.12.20-17.28.00:036][265]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Character_Blueprint/Healthbar_HUD]
+[2023.12.20-17.28.00:357][265]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Character_Blueprint/Healthbar_HUD_Auto3
+[2023.12.20-17.28.00:357][265]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Healthbar_HUD_Auto3E65BBE0D46A49B98D1AB9094EF26EAB9.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Character_Blueprint/Healthbar_HUD_Auto3.uasset'
+[2023.12.20-17.28.00:358][265]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Assets/Character_Blueprint/HealthEmpty] ([1] browsable assets)...
+[2023.12.20-17.28.00:361][265]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Maps/Assets/Character_Blueprint/HealthEmpty.HealthEmpty]
+[2023.12.20-17.28.00:361][265]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Character_Blueprint/HealthEmpty]
+[2023.12.20-17.28.00:362][265]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Character_Blueprint/HealthEmpty_Auto3
+[2023.12.20-17.28.00:362][265]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/HealthEmpty_Auto3562D306A473D1ABE99E2DBB5F6FF73D4.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Character_Blueprint/HealthEmpty_Auto3.uasset'
+[2023.12.20-17.28.00:363][265]LogFileHelpers: Auto-saving content packages took 0.333
+[2023.12.20-17.29.50:091][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-17.29.50:278][ 73]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/Healthbar_HUD
+[2023.12.20-17.29.50:278][ 73]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Healthbar_HUD543E1C904F9128D0C51021BA9274F6B3.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/Healthbar_HUD.uasset'
+[2023.12.20-17.29.50:308][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 217 ms (total: 3.30 sec)
+[2023.12.20-17.29.50:337][ 73]AssetCheck: New page: Asset Save: Healthbar_HUD
+[2023.12.20-17.29.50:337][ 73]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Maps/Assets/Character_Blueprint/Healthbar_HUD.Healthbar_HUD
+[2023.12.20-17.29.53:634][258]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-17.29.53:650][258]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.20-17.29.54:009][258]LogPlayLevel: [PlayLevel] Compiling Healthbar_HUD before play...
+[2023.12.20-17.29.54:934][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.12.20-17.29.54:944][258]LogPlayLevel: PlayLevel: Blueprint regeneration took 1300 ms (1 blueprints)
+[2023.12.20-17.29.54:944][258]PIE: New page: PIE session: EndMap (20 Dec 2023, 17:29:54)
+[2023.12.20-17.29.54:945][258]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-17.29.55:008][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062880s)
+[2023.12.20-17.29.55:008][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.062937s)
+[2023.12.20-17.29.55:029][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.12.20-17.29.55:030][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-17.29.55:030][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-17.29.55:031][258]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-17.29.55:031][258]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2023.12.20-17.29.55:036][258]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2023.12.20-17.29.55:036][258]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-17.29.55:036][258]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-17.29.55:036][258]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-17.29.55:036][258]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-17.29.55:036][258]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-17.29.55:036][258]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-17.29.55:036][258]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-17.29.55:036][258]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-17.29.55:037][258]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-17.29.55:037][258]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-17.29.55:037][258]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-17.29.55:039][258]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-17.29.55:077][258]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-17.29.55:078][258]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-17.29.55:078][258]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-17.29.55:091][258]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-17.29.55:092][258]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2023.12.20-17.29.55:092][258]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2023.12.20-17.29.55:094][258]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2023.12.20-17.29.55:094][258]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2023.12.20-17.29.55:094][258]LogInit: FAudioDevice initialized with ID 65.
+[2023.12.20-17.29.55:094][258]LogAudio: Display: Audio Device (ID: 65) registered with world 'EndMap'.
+[2023.12.20-17.29.55:094][258]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2023.12.20-17.29.55:098][258]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-17.29.55:117][258]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-17.29.55
+[2023.12.20-17.29.55:117][258]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-17.29.55:117][258]LogWorld: Bringing up level for play took: 0.019240
+[2023.12.20-17.29.55:128][258]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2023.12.20-17.29.55:224][258]PIE: Server logged in
+[2023.12.20-17.29.55:225][258]PIE: Play in editor total start time 1.585 seconds.
+[2023.12.20-17.29.55:225][258]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-17.30.17:623][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-17.30.17:623][588]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-17.30.17:623][588]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-17.30.17:625][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-17.30.17:647][588]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-17.30.17:652][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-17.30.17:673][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-17.30.17:673][588]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2023.12.20-17.30.17:673][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2023.12.20-17.30.17:675][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2023.12.20-17.30.17:999][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.12.20-17.30.18:346][589]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2023.12.20-17.30.19:478][642]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-17.30.19:485][642]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-17.31.17:599][131]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-17.31.17:606][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.20-17.31.17:606][131]PIE: New page: PIE session: EndMap (20 Dec 2023, 17:31:17)
+[2023.12.20-17.31.17:616][131]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-17.31.17:621][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005499s)
+[2023.12.20-17.31.17:621][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.005543s)
+[2023.12.20-17.31.17:642][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.12.20-17.31.17:643][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-17.31.17:643][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-17.31.17:644][131]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-17.31.17:644][131]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2023.12.20-17.31.17:644][131]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2023.12.20-17.31.17:644][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-17.31.17:644][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-17.31.17:644][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-17.31.17:644][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-17.31.17:644][131]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-17.31.17:644][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-17.31.17:644][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-17.31.17:644][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-17.31.17:645][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-17.31.17:645][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-17.31.17:645][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-17.31.17:647][131]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-17.31.17:681][131]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-17.31.17:682][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-17.31.17:682][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-17.31.17:682][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-17.31.17:683][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2023.12.20-17.31.17:683][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2023.12.20-17.31.17:685][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2023.12.20-17.31.17:685][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2023.12.20-17.31.17:685][131]LogInit: FAudioDevice initialized with ID 66.
+[2023.12.20-17.31.17:685][131]LogAudio: Display: Audio Device (ID: 66) registered with world 'EndMap'.
+[2023.12.20-17.31.17:686][131]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2023.12.20-17.31.17:688][131]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-17.31.17:691][131]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-17.31.17
+[2023.12.20-17.31.17:691][131]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-17.31.17:691][131]LogWorld: Bringing up level for play took: 0.002671
+[2023.12.20-17.31.17:694][131]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2023.12.20-17.31.17:698][131]PIE: Server logged in
+[2023.12.20-17.31.17:698][131]PIE: Play in editor total start time 0.093 seconds.
+[2023.12.20-17.31.17:699][131]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-17.33.39:532][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-17.33.39:532][267]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-17.33.39:533][267]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-17.33.39:538][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-17.33.39:542][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-17.33.39:549][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-17.33.39:572][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-17.33.39:572][267]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2023.12.20-17.33.39:572][267]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2023.12.20-17.33.39:576][267]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2023.12.20-17.33.39:614][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.12.20-17.33.39:879][268]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2023.12.20-17.33.41:602][360]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-17.33.41:608][360]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-18.14.58:219][926]LogDerivedDataCache: C:/Users/muham/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.383 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 487 files in 884 folders with total size 3 MiB.
+[2023.12.20-18.43.14:751][652]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Maps/Assets/Character_Blueprint/Character_blueprint.Character_blueprint
+[2023.12.20-18.43.15:134][652]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-18.43.15:134][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-18.43.18:381][653]LogAutomationController: Ignoring very large delta of 3.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.20-18.44.15:299][694]LogEditorViewport: Clicking Background
+[2023.12.20-18.44.25:687][ 20]LogSlate: External Image Picker: DecompressImage failed
+[2023.12.20-18.44.26:492][ 21]LogAutomationController: Ignoring very large delta of 5.44 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.20-18.46.17:459][484]LogSlate: Window 'Project Settings' being destroyed
+[2023.12.20-18.46.17:471][484]LogSlate: Window 'Project Settings' being destroyed
+[2023.12.20-18.47.25:105][817]LogViewport: Scene viewport resized to 815x697, mode Windowed.
+[2023.12.20-18.47.25:250][818]LogViewport: Scene viewport resized to 696x697, mode Windowed.
+[2023.12.20-18.47.25:385][819]LogViewport: Scene viewport resized to 687x697, mode Windowed.
+[2023.12.20-18.47.27:703][882]LogSlate: Window 'Extract sprites' being destroyed
+[2023.12.20-18.47.30:675][990]LogContentBrowser: Deferred new asset file creation: Attack1
+[2023.12.20-18.47.30:722][990]LogContentBrowser: Creating deferred item: Attack1
+[2023.12.20-18.47.30:764][991]LogContentBrowser: Renaming the item being created (Deferred Item: Attack1).
+[2023.12.20-18.47.39:661][445]LogContentBrowser: Attempting asset rename: Attack1 -> Attack_flipbook
+[2023.12.20-18.47.39:663][445]LogContentBrowser: End creating deferred item Attack1
+[2023.12.20-18.47.50:181][  8]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Maps/Assets/Player/Attack_flipbook.Attack_flipbook
+[2023.12.20-18.47.50:252][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-18.47.50:252][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-18.47.50:546][  8]LogViewport: Scene viewport resized to 1526x769, mode Windowed.
+[2023.12.20-18.48.04:232][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-18.48.04:301][801]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_flipbook
+[2023.12.20-18.48.04:301][801]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_flipbook7DAFCFD84143443BE04C1C82CD1E67B0.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_flipbook.uasset'
+[2023.12.20-18.48.04:315][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 3.38 sec)
+[2023.12.20-18.48.04:317][801]AssetCheck: New page: Asset Save: Attack_flipbook
+[2023.12.20-18.48.04:317][801]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Maps/Assets/Player/Attack_flipbook.Attack_flipbook
+[2023.12.20-18.48.06:606][925]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-18.48.06:614][925]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.20-18.48.06:737][925]LogPlayLevel: [PlayLevel] Compiling Character_blueprint before play...
+[2023.12.20-18.48.07:514][925]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.12.20-18.48.07:517][925]LogPlayLevel: PlayLevel: Blueprint regeneration took 903 ms (1 blueprints)
+[2023.12.20-18.48.07:517][925]PIE: New page: PIE session: EndMap (20 Dec 2023, 18:48:07)
+[2023.12.20-18.48.07:518][925]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-18.48.07:522][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004682s)
+[2023.12.20-18.48.07:522][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.004757s)
+[2023.12.20-18.48.07:545][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.12.20-18.48.07:546][925]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-18.48.07:546][925]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-18.48.07:548][925]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-18.48.07:548][925]LogPlayLevel: PIE: World Init took: (0.001751s)
+[2023.12.20-18.48.07:548][925]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2023.12.20-18.48.07:548][925]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-18.48.07:548][925]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-18.48.07:548][925]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-18.48.07:548][925]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-18.48.07:548][925]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-18.48.07:548][925]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-18.48.07:548][925]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-18.48.07:548][925]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-18.48.07:549][925]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-18.48.07:549][925]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-18.48.07:549][925]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-18.48.07:551][925]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-18.48.07:589][925]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-18.48.07:590][925]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-18.48.07:590][925]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-18.48.07:590][925]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-18.48.07:591][925]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2023.12.20-18.48.07:591][925]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2023.12.20-18.48.07:593][925]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2023.12.20-18.48.07:593][925]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2023.12.20-18.48.07:593][925]LogInit: FAudioDevice initialized with ID 67.
+[2023.12.20-18.48.07:593][925]LogAudio: Display: Audio Device (ID: 67) registered with world 'EndMap'.
+[2023.12.20-18.48.07:593][925]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 67
+[2023.12.20-18.48.07:596][925]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-18.48.07:599][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-18.48.07
+[2023.12.20-18.48.07:600][925]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-18.48.07:600][925]LogWorld: Bringing up level for play took: 0.002989
+[2023.12.20-18.48.07:603][925]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2023.12.20-18.48.07:606][925]PIE: Server logged in
+[2023.12.20-18.48.07:607][925]PIE: Play in editor total start time 0.994 seconds.
+[2023.12.20-18.48.07:607][925]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-18.48.33:391][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-18.48.33:391][463]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-18.48.33:392][463]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.48.33:393][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.48.33:400][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-18.48.33:405][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.48.33:428][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-18.48.33:428][463]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 67
+[2023.12.20-18.48.33:429][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2023.12.20-18.48.33:430][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2023.12.20-18.48.33:442][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.12.20-18.48.33:602][464]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2023.12.20-18.48.38:578][744]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-18.48.38:595][744]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-18.48.48:511][283]LogSlate: Window 'Attack_flipbook' being destroyed
+[2023.12.20-18.48.48:520][283]LogSlate: Window 'Attack_flipbook' being destroyed
+[2023.12.20-18.48.48:612][283]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.48.48:612][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.48.49:125][283]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.20-18.48.49:125][283]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.48.49:125][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.48.49:771][283]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.48.49:771][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.48.49:780][283]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.48.49:780][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.48.49:971][283]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.20-18.48.49:971][283]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.48.49:971][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.48.50:032][283]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.48.50:032][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.49.00:163][778]LogSlate: Window 'Content Browser' being destroyed
+[2023.12.20-18.49.00:169][778]LogSlate: Window 'Content Browser' being destroyed
+[2023.12.20-18.49.07:141][107]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Maps/Assets/Character_Blueprint/GM_character.GM_character
+[2023.12.20-18.49.07:142][107]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-18.49.07:142][107]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-18.49.09:630][223]LogSlate: Window 'GM_character' being destroyed
+[2023.12.20-18.49.09:643][223]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.49.09:643][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.49.11:708][333]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Maps/Assets/Character_Blueprint/Character_blueprint.Character_blueprint
+[2023.12.20-18.49.11:708][333]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-18.49.11:708][333]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-18.50.37:579][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.12.20-18.50.37:587][852]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EndMap' took 0.421
+[2023.12.20-18.50.37:590][852]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Character_Blueprint/Character_blueprint] ([2] browsable assets)...
+[2023.12.20-18.50.37:590][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Character_Blueprint/Character_blueprint]
+[2023.12.20-18.50.37:733][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Character_Blueprint/Character_blueprint_Auto4
+[2023.12.20-18.50.37:733][852]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Character_blueprint_Auto45BCC740246D7282B529257BB9C02C0BF.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Character_Blueprint/Character_blueprint_Auto4.uasset'
+[2023.12.20-18.50.37:774][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_0] ([1] browsable assets)...
+[2023.12.20-18.50.37:780][852]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_0.Attack_Sprite_0]
+[2023.12.20-18.50.37:780][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_0]
+[2023.12.20-18.50.37:808][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_0_Auto4
+[2023.12.20-18.50.37:809][852]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_0_Auto497B5974145E75086B6FB39983ECAD5CB.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_0_Auto4.uasset'
+[2023.12.20-18.50.37:816][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_1] ([1] browsable assets)...
+[2023.12.20-18.50.37:838][852]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_1.Attack_Sprite_1]
+[2023.12.20-18.50.37:838][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_1]
+[2023.12.20-18.50.37:842][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_1_Auto4
+[2023.12.20-18.50.37:843][852]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_1_Auto4381677FC4B04C72570D940A3D6A4C5BB.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_1_Auto4.uasset'
+[2023.12.20-18.50.37:844][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_2] ([1] browsable assets)...
+[2023.12.20-18.50.37:848][852]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_2.Attack_Sprite_2]
+[2023.12.20-18.50.37:848][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_2]
+[2023.12.20-18.50.37:857][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_2_Auto4
+[2023.12.20-18.50.37:857][852]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_2_Auto4E24E6ECA48ECE3F6D41C2A8600381514.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_2_Auto4.uasset'
+[2023.12.20-18.50.37:863][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_3] ([1] browsable assets)...
+[2023.12.20-18.50.37:882][852]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_3.Attack_Sprite_3]
+[2023.12.20-18.50.37:883][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_3]
+[2023.12.20-18.50.37:889][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_3_Auto4
+[2023.12.20-18.50.37:889][852]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_3_Auto4917998A14D683CA5EA4DB09A314B3F68.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_3_Auto4.uasset'
+[2023.12.20-18.50.37:891][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_4] ([1] browsable assets)...
+[2023.12.20-18.50.37:896][852]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_4.Attack_Sprite_4]
+[2023.12.20-18.50.37:896][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_4]
+[2023.12.20-18.50.37:899][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_4_Auto4
+[2023.12.20-18.50.37:899][852]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_4_Auto40213FA66431739A4839FA28A22E86773.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_4_Auto4.uasset'
+[2023.12.20-18.50.37:903][852]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_5] ([1] browsable assets)...
+[2023.12.20-18.50.37:919][852]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_5.Attack_Sprite_5]
+[2023.12.20-18.50.37:919][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_5]
+[2023.12.20-18.50.37:923][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_5_Auto4
+[2023.12.20-18.50.37:923][852]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_5_Auto497F4151544866FD50FE6A789B012BCC9.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_5_Auto4.uasset'
+[2023.12.20-18.50.37:924][852]LogFileHelpers: Auto-saving content packages took 0.335
+[2023.12.20-18.52.59:991][530]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-18.53.00:067][530]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/Character_blueprint
+[2023.12.20-18.53.00:067][530]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Character_blueprintE6C455F7422841C76687D48C3276BEBE.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/Character_blueprint.uasset'
+[2023.12.20-18.53.00:342][530]LogFileHelpers: InternalPromptForCheckoutAndSave took 350 ms (total: 3.73 sec)
+[2023.12.20-18.53.00:345][530]AssetCheck: New page: Asset Save: Character_blueprint
+[2023.12.20-18.53.00:345][530]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Maps/Assets/Character_Blueprint/Character_blueprint.Character_blueprint
+[2023.12.20-18.53.00:506][538]BlueprintLog: New page: Compile Character_blueprint
+[2023.12.20-18.53.00:562][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.12.20-18.53.03:353][688]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-18.53.03:360][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.20-18.53.03:360][688]PIE: New page: PIE session: EndMap (20 Dec 2023, 18:53:03)
+[2023.12.20-18.53.03:370][688]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-18.53.03:375][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005063s)
+[2023.12.20-18.53.03:375][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.005109s)
+[2023.12.20-18.53.03:396][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.12.20-18.53.03:400][688]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-18.53.03:400][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-18.53.03:400][688]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-18.53.03:401][688]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2023.12.20-18.53.03:401][688]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2023.12.20-18.53.03:401][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-18.53.03:401][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-18.53.03:401][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-18.53.03:401][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-18.53.03:401][688]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-18.53.03:401][688]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-18.53.03:401][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-18.53.03:401][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-18.53.03:401][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-18.53.03:401][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-18.53.03:401][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-18.53.03:403][688]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-18.53.03:440][688]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-18.53.03:441][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-18.53.03:441][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-18.53.03:441][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-18.53.03:443][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2023.12.20-18.53.03:443][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2023.12.20-18.53.03:445][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2023.12.20-18.53.03:445][688]LogInit: FAudioDevice initialized with ID 68.
+[2023.12.20-18.53.03:445][688]LogAudio: Display: Audio Device (ID: 68) registered with world 'EndMap'.
+[2023.12.20-18.53.03:445][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2023.12.20-18.53.03:445][688]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 68
+[2023.12.20-18.53.03:448][688]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-18.53.03:451][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-18.53.03
+[2023.12.20-18.53.03:451][688]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-18.53.03:451][688]LogWorld: Bringing up level for play took: 0.002864
+[2023.12.20-18.53.03:454][688]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2023.12.20-18.53.03:457][688]PIE: Server logged in
+[2023.12.20-18.53.03:458][688]PIE: Play in editor total start time 0.098 seconds.
+[2023.12.20-18.53.03:459][688]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-18.53.30:281][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-18.53.30:281][293]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-18.53.30:281][293]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-18.53.30:283][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.53.30:287][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-18.53.30:292][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-18.53.30:315][293]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.20-18.53.30:316][293]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 68
+[2023.12.20-18.53.30:316][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2023.12.20-18.53.30:318][293]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2023.12.20-18.53.30:329][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-18.53.30:334][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.12.20-18.53.30:479][294]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2023.12.20-18.53.34:280][502]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-18.53.34:289][502]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-19.00.21:464][674]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-19.00.21:549][674]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/Character_blueprint
+[2023.12.20-19.00.21:549][674]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Character_blueprint0D090014408E956BB82DCB9C6C27F718.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/Character_blueprint.uasset'
+[2023.12.20-19.00.21:561][674]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 3.83 sec)
+[2023.12.20-19.00.21:562][674]AssetCheck: New page: Asset Save: Character_blueprint
+[2023.12.20-19.00.21:563][674]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Maps/Assets/Character_Blueprint/Character_blueprint.Character_blueprint
+[2023.12.20-19.00.22:193][707]BlueprintLog: New page: Compile Character_blueprint
+[2023.12.20-19.00.22:269][707]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.12.20-19.00.25:970][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-19.00.25:977][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.20-19.00.25:977][895]PIE: New page: PIE session: EndMap (20 Dec 2023, 19:00:25)
+[2023.12.20-19.00.26:001][895]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-19.00.26:005][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004680s)
+[2023.12.20-19.00.26:005][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.004737s)
+[2023.12.20-19.00.26:027][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.12.20-19.00.26:031][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-19.00.26:031][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-19.00.26:031][895]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-19.00.26:032][895]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2023.12.20-19.00.26:032][895]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2023.12.20-19.00.26:032][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-19.00.26:032][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-19.00.26:032][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-19.00.26:032][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-19.00.26:032][895]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-19.00.26:032][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-19.00.26:032][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-19.00.26:032][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-19.00.26:033][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-19.00.26:033][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-19.00.26:033][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-19.00.26:036][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-19.00.26:074][895]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-19.00.26:075][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-19.00.26:075][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-19.00.26:075][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-19.00.26:076][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2023.12.20-19.00.26:076][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2023.12.20-19.00.26:078][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2023.12.20-19.00.26:078][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2023.12.20-19.00.26:078][895]LogInit: FAudioDevice initialized with ID 69.
+[2023.12.20-19.00.26:078][895]LogAudio: Display: Audio Device (ID: 69) registered with world 'EndMap'.
+[2023.12.20-19.00.26:078][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2023.12.20-19.00.26:081][895]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-19.00.26:084][895]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-19.00.26
+[2023.12.20-19.00.26:084][895]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-19.00.26:084][895]LogWorld: Bringing up level for play took: 0.002769
+[2023.12.20-19.00.26:086][895]LogOnline: OSS: Created online subsystem instance for: :Context_112
+[2023.12.20-19.00.26:090][895]PIE: Server logged in
+[2023.12.20-19.00.26:091][895]PIE: Play in editor total start time 0.115 seconds.
+[2023.12.20-19.00.26:091][895]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-19.00.43:990][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-19.00.43:990][967]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-19.00.43:991][967]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-19.00.43:991][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.00.43:996][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-19.00.44:001][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.00.44:020][967]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.20-19.00.44:020][967]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2023.12.20-19.00.44:020][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2023.12.20-19.00.44:023][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2023.12.20-19.00.44:030][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-19.00.44:035][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.12.20-19.00.44:205][968]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2023.12.20-19.00.46:181][ 68]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-19.00.46:192][ 68]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-19.00.52:381][421]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Maps/Assets/Player/Attack_flipbook.Attack_flipbook
+[2023.12.20-19.00.52:382][421]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-19.00.52:382][421]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-19.00.52:612][421]LogViewport: Scene viewport resized to 1526x769, mode Windowed.
+[2023.12.20-19.00.58:115][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-19.00.58:189][737]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_flipbook
+[2023.12.20-19.00.58:189][737]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_flipbook8CFA784040032D66B26F84B5D065A6A2.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_flipbook.uasset'
+[2023.12.20-19.00.58:202][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 3.92 sec)
+[2023.12.20-19.00.58:203][737]AssetCheck: New page: Asset Save: Attack_flipbook
+[2023.12.20-19.00.58:203][737]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Maps/Assets/Player/Attack_flipbook.Attack_flipbook
+[2023.12.20-19.01.21:224][992]Cmd: TRANSACTION UNDO
+[2023.12.20-19.01.21:224][992]LogEditorTransaction: Undo Edit Default Material
+[2023.12.20-19.01.26:301][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-19.01.26:368][261]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_flipbook
+[2023.12.20-19.01.26:368][261]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_flipbook1ACB79A94C95880B60550AA5C958DA6F.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_flipbook.uasset'
+[2023.12.20-19.01.26:379][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 3.99 sec)
+[2023.12.20-19.01.26:380][261]AssetCheck: New page: Asset Save: Attack_flipbook
+[2023.12.20-19.01.26:380][261]LogContentValidation: Display: Validating /Script/Paper2D.PaperFlipbook /Game/Maps/Assets/Player/Attack_flipbook.Attack_flipbook
+[2023.12.20-19.01.27:814][346]LogSlate: Window 'Attack_flipbook' being destroyed
+[2023.12.20-19.01.27:821][346]LogSlate: Window 'Attack_flipbook' being destroyed
+[2023.12.20-19.01.27:826][346]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-19.01.27:826][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.01.28:128][346]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-19.01.28:128][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.01.30:438][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-19.01.30:659][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.12.20-19.01.30:678][478]LogSavePackage: Moving output files for package: /Game/Maps/EndMap
+[2023.12.20-19.01.30:678][478]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/EndMap16E3FB5848C20F1F00246FA0D4251E89.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/EndMap.umap'
+[2023.12.20-19.01.30:797][478]LogFileHelpers: Saving map 'EndMap' took 0.267
+[2023.12.20-19.01.30:807][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 368 ms (total: 4.36 sec)
+[2023.12.20-19.01.30:809][478]AssetCheck: New page: Asset Save: EndMap
+[2023.12.20-19.01.30:809][478]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/EndMap.EndMap
+[2023.12.20-19.01.31:437][516]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-19.01.31:443][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.20-19.01.31:443][516]PIE: New page: PIE session: EndMap (20 Dec 2023, 19:01:31)
+[2023.12.20-19.01.31:470][516]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-19.01.31:475][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004734s)
+[2023.12.20-19.01.31:475][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.004822s)
+[2023.12.20-19.01.31:495][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.12.20-19.01.31:496][516]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-19.01.31:496][516]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-19.01.31:497][516]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-19.01.31:497][516]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2023.12.20-19.01.31:497][516]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2023.12.20-19.01.31:497][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-19.01.31:497][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-19.01.31:497][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-19.01.31:497][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-19.01.31:497][516]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-19.01.31:497][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-19.01.31:497][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-19.01.31:497][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-19.01.31:498][516]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-19.01.31:498][516]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-19.01.31:498][516]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-19.01.31:500][516]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-19.01.31:536][516]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-19.01.31:537][516]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-19.01.31:537][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-19.01.31:537][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-19.01.31:537][516]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2023.12.20-19.01.31:538][516]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2023.12.20-19.01.31:540][516]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2023.12.20-19.01.31:540][516]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2023.12.20-19.01.31:540][516]LogInit: FAudioDevice initialized with ID 70.
+[2023.12.20-19.01.31:540][516]LogAudio: Display: Audio Device (ID: 70) registered with world 'EndMap'.
+[2023.12.20-19.01.31:540][516]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2023.12.20-19.01.31:543][516]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-19.01.31:545][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-19.01.31
+[2023.12.20-19.01.31:546][516]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-19.01.31:546][516]LogWorld: Bringing up level for play took: 0.002620
+[2023.12.20-19.01.31:548][516]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2023.12.20-19.01.31:552][516]PIE: Server logged in
+[2023.12.20-19.01.31:553][516]PIE: Play in editor total start time 0.11 seconds.
+[2023.12.20-19.01.31:553][516]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-19.01.49:861][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-19.01.49:861][612]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-19.01.49:862][612]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-19.01.49:862][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.01.49:866][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-19.01.49:872][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.01.49:890][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-19.01.49:890][612]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2023.12.20-19.01.49:890][612]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2023.12.20-19.01.49:892][612]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2023.12.20-19.01.49:902][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.12.20-19.01.50:037][613]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2023.12.20-19.02.20:988][277]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-19.02.20:997][277]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-19.02.27:522][647]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Maps/Assets/Character_Blueprint/Character_blueprint.Character_blueprint
+[2023.12.20-19.02.27:522][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-19.02.27:522][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-19.03.28:916][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-19.03.28:999][799]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/Character_blueprint
+[2023.12.20-19.03.29:000][799]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Character_blueprint3995131D417CE34FF6835889BACF3414.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/Character_blueprint.uasset'
+[2023.12.20-19.03.29:012][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 4.46 sec)
+[2023.12.20-19.03.29:013][799]AssetCheck: New page: Asset Save: Character_blueprint
+[2023.12.20-19.03.29:013][799]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Maps/Assets/Character_Blueprint/Character_blueprint.Character_blueprint
+[2023.12.20-19.03.29:561][831]BlueprintLog: New page: Compile Character_blueprint
+[2023.12.20-19.03.29:614][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.12.20-19.03.32:272][968]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.20-19.03.32:279][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.20-19.03.32:279][968]PIE: New page: PIE session: EndMap (20 Dec 2023, 19:03:32)
+[2023.12.20-19.03.32:300][968]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-19.03.32:305][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004985s)
+[2023.12.20-19.03.32:305][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndMap.EndMap to /Game/Maps/UEDPIE_0_EndMap.EndMap (0.005031s)
+[2023.12.20-19.03.32:328][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.12.20-19.03.32:331][968]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.20-19.03.32:331][968]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.20-19.03.32:332][968]LogAIModule: Creating AISystem for world EndMap
+[2023.12.20-19.03.32:332][968]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2023.12.20-19.03.32:332][968]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2023.12.20-19.03.32:332][968]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.20-19.03.32:332][968]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.20-19.03.32:332][968]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.20-19.03.32:332][968]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.20-19.03.32:332][968]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.20-19.03.32:332][968]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.20-19.03.32:332][968]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.20-19.03.32:332][968]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.20-19.03.32:333][968]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.20-19.03.32:333][968]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.20-19.03.32:333][968]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.20-19.03.32:336][968]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.20-19.03.32:373][968]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.12.20-19.03.32:373][968]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.20-19.03.32:373][968]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.20-19.03.32:373][968]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.20-19.03.32:375][968]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2023.12.20-19.03.32:375][968]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2023.12.20-19.03.32:376][968]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2023.12.20-19.03.32:377][968]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2023.12.20-19.03.32:377][968]LogInit: FAudioDevice initialized with ID 71.
+[2023.12.20-19.03.32:377][968]LogAudio: Display: Audio Device (ID: 71) registered with world 'EndMap'.
+[2023.12.20-19.03.32:377][968]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2023.12.20-19.03.32:380][968]LogLoad: Game class is 'GM_character_C'
+[2023.12.20-19.03.32:382][968]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndMap.EndMap up for play (max tick rate 60) at 2023.12.20-19.03.32
+[2023.12.20-19.03.32:383][968]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2023.12.20-19.03.32:383][968]LogWorld: Bringing up level for play took: 0.002728
+[2023.12.20-19.03.32:385][968]LogOnline: OSS: Created online subsystem instance for: :Context_116
+[2023.12.20-19.03.32:389][968]PIE: Server logged in
+[2023.12.20-19.03.32:390][968]PIE: Play in editor total start time 0.112 seconds.
+[2023.12.20-19.03.32:390][968]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_EndMap.EndMap:PersistentLevel.Enemy_C_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2023.12.20-19.03.47:800][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-19.03.47:801][890]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_EndMap
+[2023.12.20-19.03.47:801][890]LogWorld: UWorld::CleanupWorld for EndMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.20-19.03.47:802][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.03.47:808][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.20-19.03.47:814][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.20-19.03.47:837][890]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.20-19.03.47:838][890]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2023.12.20-19.03.47:838][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2023.12.20-19.03.47:840][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2023.12.20-19.03.47:847][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.20-19.03.47:852][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.12.20-19.03.48:020][891]LogPlayLevel: Display: Destroying online subsystem :Context_116
+[2023.12.20-19.03.51:960][106]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-19.03.51:967][106]LogSlate: Window 'Message Log' being destroyed
+[2023.12.20-19.06.26:620][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-19.06.26:699][736]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/Character_blueprint
+[2023.12.20-19.06.26:700][736]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Character_blueprint12E8EA944E765372EE20968127C0C13C.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/Character_blueprint.uasset'
+[2023.12.20-19.06.26:713][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.55 sec)
+[2023.12.20-19.06.26:714][736]AssetCheck: New page: Asset Save: Character_blueprint
+[2023.12.20-19.06.26:714][736]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Maps/Assets/Character_Blueprint/Character_blueprint.Character_blueprint
+[2023.12.20-19.12.04:976][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.20-19.12.04:980][527]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EndMap' took 0.299
+[2023.12.20-19.12.04:988][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Character_Blueprint/HealthEmpty] ([1] browsable assets)...
+[2023.12.20-19.12.04:988][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Character_Blueprint/HealthEmpty]
+[2023.12.20-19.12.04:989][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Character_Blueprint/HealthEmpty_Auto5
+[2023.12.20-19.12.04:989][527]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/HealthEmpty_Auto5CBD671A0489CF1364A6D8CB1AB6607DF.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Character_Blueprint/HealthEmpty_Auto5.uasset'
+[2023.12.20-19.12.04:990][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_0] ([1] browsable assets)...
+[2023.12.20-19.12.04:991][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_0]
+[2023.12.20-19.12.04:992][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_0_Auto5
+[2023.12.20-19.12.04:992][527]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_0_Auto58B022CD54003C9A5315B0FAE4EF63960.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_0_Auto5.uasset'
+[2023.12.20-19.12.04:993][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_1] ([1] browsable assets)...
+[2023.12.20-19.12.04:993][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_1]
+[2023.12.20-19.12.04:994][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_1_Auto5
+[2023.12.20-19.12.04:994][527]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_1_Auto53CE5F92841F8DAFE8FABF283F0AD4355.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_1_Auto5.uasset'
+[2023.12.20-19.12.04:995][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_2] ([1] browsable assets)...
+[2023.12.20-19.12.04:995][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_2]
+[2023.12.20-19.12.04:996][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_2_Auto5
+[2023.12.20-19.12.04:997][527]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_2_Auto5A3D3C3564FF7B03CA06F248E4035A1ED.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_2_Auto5.uasset'
+[2023.12.20-19.12.04:997][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_3] ([1] browsable assets)...
+[2023.12.20-19.12.04:997][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_3]
+[2023.12.20-19.12.04:999][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_3_Auto5
+[2023.12.20-19.12.04:999][527]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_3_Auto59C01312244E8D50E4980199FC405066D.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_3_Auto5.uasset'
+[2023.12.20-19.12.05:000][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_4] ([1] browsable assets)...
+[2023.12.20-19.12.05:000][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_4]
+[2023.12.20-19.12.05:001][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_4_Auto5
+[2023.12.20-19.12.05:001][527]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_4_Auto5B48E34BA458039F6E546F2982B1F4AAE.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_4_Auto5.uasset'
+[2023.12.20-19.12.05:002][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Assets/Player/Attack_Sprite_5] ([1] browsable assets)...
+[2023.12.20-19.12.05:002][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Assets/Player/Attack_Sprite_5]
+[2023.12.20-19.12.05:004][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_5_Auto5
+[2023.12.20-19.12.05:004][527]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_5_Auto54008E62544F01310B44DB7AE3FD90B40.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Autosaves/Game/Maps/Assets/Player/Attack_Sprite_5_Auto5.uasset'
+[2023.12.20-19.12.05:005][527]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.12.20-19.14.57:899][ 46]LogDerivedDataCache: C:/Users/muham/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.053 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 487 files in 884 folders with total size 3 MiB.
+[2023.12.20-20.14.57:906][844]LogDerivedDataCache: C:/Users/muham/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.059 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 487 files in 884 folders with total size 3 MiB.
+[2023.12.20-21.14.57:954][641]LogDerivedDataCache: C:/Users/muham/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.106 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 487 files in 884 folders with total size 3 MiB.
+[2023.12.20-22.14.57:943][438]LogDerivedDataCache: C:/Users/muham/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.094 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 487 files in 884 folders with total size 3 MiB.
+[2023.12.20-23.00.19:798][700]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-23.00.19:914][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.20-23.00.19:930][700]LogSavePackage: Moving output files for package: /Game/Maps/EndMap
+[2023.12.20-23.00.19:930][700]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/EndMapE9863B8C47D17D109E1C258AC91A7577.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/EndMap.umap'
+[2023.12.20-23.00.19:937][700]LogFileHelpers: Saving map 'EndMap' took 0.071
+[2023.12.20-23.00.19:952][700]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 4.70 sec)
+[2023.12.20-23.00.19:954][700]AssetCheck: New page: Asset Save: EndMap
+[2023.12.20-23.00.19:954][700]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/EndMap.EndMap
+[2023.12.20-23.00.23:764][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.12.20-23.00.25:143][ 87]LogSlate: Window 'Save Content' being destroyed
+[2023.12.20-23.00.25:194][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.20-23.00.25:260][ 87]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_Sprite_0
+[2023.12.20-23.00.25:260][ 87]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_0FC466C58413C5B3BAD673FA695B1513D.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_Sprite_0.uasset'
+[2023.12.20-23.00.25:266][ 87]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_Sprite_1
+[2023.12.20-23.00.25:266][ 87]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_1945B8FB849F3634127D0EB9F78065A67.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_Sprite_1.uasset'
+[2023.12.20-23.00.25:271][ 87]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_Sprite_2
+[2023.12.20-23.00.25:271][ 87]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_27ED1AB194A8EB1021A03E49D92760162.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_Sprite_2.uasset'
+[2023.12.20-23.00.25:368][ 87]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_Sprite_3
+[2023.12.20-23.00.25:368][ 87]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_3871330A04F0FD3FFF9B418B1CA6F8609.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_Sprite_3.uasset'
+[2023.12.20-23.00.25:371][ 87]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_Sprite_4
+[2023.12.20-23.00.25:371][ 87]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_4F48658A4465E6B741A425DB4CC7F250D.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_Sprite_4.uasset'
+[2023.12.20-23.00.25:374][ 87]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Player/Attack_Sprite_5
+[2023.12.20-23.00.25:374][ 87]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/Attack_Sprite_570AFA87D4214EDA6625C2F8AEC8061C4.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Player/Attack_Sprite_5.uasset'
+[2023.12.20-23.00.25:378][ 87]LogSavePackage: Moving output files for package: /Game/Maps/Assets/Character_Blueprint/HealthEmpty
+[2023.12.20-23.00.25:378][ 87]LogSavePackage: Moving '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Saved/HealthEmptyE6E67574475AF8CADC52A5BD65859E02.tmp' to '../../../../../Documents/MTU College work/Game Dev/Plastic Plague/PlasticPlague/Game/GroupProj/PlasticPlague/Content/Maps/Assets/Character_Blueprint/HealthEmpty.uasset'
+[2023.12.20-23.00.25:394][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 4.90 sec)
+[2023.12.20-23.00.25:396][ 87]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.20-23.00.25:396][ 87]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_0.Attack_Sprite_0
+[2023.12.20-23.00.25:396][ 87]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_1.Attack_Sprite_1
+[2023.12.20-23.00.25:396][ 87]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_2.Attack_Sprite_2
+[2023.12.20-23.00.25:396][ 87]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_3.Attack_Sprite_3
+[2023.12.20-23.00.25:396][ 87]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_4.Attack_Sprite_4
+[2023.12.20-23.00.25:396][ 87]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/Maps/Assets/Player/Attack_Sprite_5.Attack_Sprite_5
+[2023.12.20-23.00.25:396][ 87]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Maps/Assets/Character_Blueprint/HealthEmpty.HealthEmpty
